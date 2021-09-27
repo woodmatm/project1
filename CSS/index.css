@@ -1,0 +1,39 @@
+.main-background {
+    background-image: url(Images/4562472.jpg);
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.main-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: transparent;
+}
+
+#home-header {
+    font-size: 80px;
+    color: #ecf0f1;
+    text-align: center;
+    background-color: transparent;
+}
+
+#home-subheader {
+    font-size: 24px;
+    color: #ecf0f1;
+    text-align: center;
+    margin: 20px;
+    background-color: transparent;
+}
+
+#start {
+    margin: 20px;
+    font-size: 24px;
+    background-color: black;
+}

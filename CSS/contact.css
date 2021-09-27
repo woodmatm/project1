@@ -1,0 +1,57 @@
+.contact {
+    background-image: url(Images/future.png);
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    padding: 90px;
+    align-content: center;
+    justify-content: center;
+}
+
+#contactme {
+    margin: 10px;
+    padding: 10px;
+    font-size: 64px;
+    color: #ecf0f1;
+}
+
+.contact label {
+    font-size: larger;
+    display: inline-block;
+    clear: left;
+    width: 200px;
+    text-align: right;
+    color: #ecf0f1;
+}
+
+.contact label[for="subject"]{
+    width: 75px;
+    margin: auto;
+}
+
+.contact input {
+    font-family: "Montserrat", sans-serif;
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+.contact textarea{
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    padding: 6px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    resize: vertical;
+}

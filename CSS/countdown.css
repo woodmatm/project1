@@ -1,0 +1,29 @@
+.countdown {
+  background-image: url(Images/countdown.jpg);
+  height:120vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  color: white;
+  background-color: transparent;
+  margin-top: -43px;
+}
+
+h1 {
+  font-size: 64px;
+    color: #ecf0f1;
+    text-align: center;
+    background-color: transparent;
+    padding: 50px;
+}
+
+ p {
+   font-size: 24px;
+ }
+
+ span {
+   font-size: 16px;
+ }
