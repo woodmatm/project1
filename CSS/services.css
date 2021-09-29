@@ -1,0 +1,112 @@
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(Images/services.jpg);
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.economy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    width: 200px;
+    margin: 20px;
+    background-color: gray;
+    color: antiquewhite;
+}
+
+.economy:hover {
+    background-color: rgb(62,62,62);
+    color: antiquewhite;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.preferred {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    width: 200px;
+    margin: 20px;
+    background-color: gray;
+    color: antiquewhite;
+}
+
+.preferred:hover {
+    background-color: rgb(62,62,62);
+    color: antiquewhite;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.premium {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    width: 200px;
+    margin: 20px;
+    background-color: gray;
+    color: antiquewhite;
+}
+
+.premium:hover {
+    background-color: rgb(62,62,62);
+    color: antiquewhite;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+
+.flex-button {
+    font-size: 12px;
+    border: 1px solid black;
+    width: 100px;
+    height: 60px;
+    margin: 10px;
+    align-self: center;
+}
+
+.parent h2, ul {
+    text-align: center;
+}
+
+.parent ul {
+    margin: 20px;
+    margin-bottom: 150px;
+    padding: 0;
+    margin-left: 1em;
+    }
+
+.parent li {
+    text-align: center;
+    margin: 1px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    }
+
+.coach {
+    height: 120px;
+    padding: 10px;
+}
+
+.flex-button {
+    margin-top: -100px;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    color: green;
+    margin-top: -20px;
+}
