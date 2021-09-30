@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     background-size: cover;
-    background-image: url(Images/services.jpg);
+    background-image: url(../Images/service.jpg);
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -112,13 +112,31 @@ h3 {
 }
 
 @media screen and (max-width: 750px) {
-    .economy {
-         
-    }
-    .preferred {
 
+    .parent {
+        flex-direction: column;
+        height: 80%;
+        justify-content: space-evenly;
     }
+
+    .coach {
+        display: none;
+    }
+
+    .economy {
+        width: 150px;
+    }
+
+    .preferred {
+        width: 150px;
+    }
+
     .premium {
-        
+        width: 150px;
+    }
+
+    h3 {
+        margin-top: -10px;
+        font-size: 30px;
     }
   }

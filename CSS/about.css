@@ -1,5 +1,5 @@
 .about-background {
-    background-image: url(Images/4562472.jpg);
+    background-image: url(../Images/future.png);
     height:100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,6 +43,44 @@
     border-bottom: 1px solid red;
 }
 
+.statement {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../Images/statement.jpg);
+    height: 700px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+#statement-title {
+    font-family: monospace;
+    font-size: 36px;
+    padding-top: 50px;
+}
+
+#statement-para {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 24px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 36px;
+    padding-top: 50px;
+}
+
+#loved {
+    margin-top: -2px;
+    font-size: 42px;
+}
+
+.checked {
+    color: orange;
+  }
+
 #support {
     text-align: center;
     font-size: 48px;
@@ -60,3 +98,66 @@
     height: 200px;
     width: 300px;
 }
+
+@media screen and (max-width: 700px) {
+    .about-background {
+        width: 100%;
+    }
+    
+    #about-header {
+        font-size: 36px;
+    }
+
+    .statement {
+        height: 500px;
+    }
+
+    #statement-title {
+        font-size: 24px;
+    }
+
+    #statement-para {
+        font-size: 16px;
+    }
+
+    .rating {
+        font-size: 20px;
+    }
+
+    #loved {
+        font-size: 16px;
+    }
+
+    .games {
+        height: 120px;
+    }
+
+    .game-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    @media screen and (max-width: 500px) {
+
+        #about-header {
+            font-size: 24px;
+        }
+
+        #statement-title {
+            font-size: 18px;
+        }
+
+        #statement-para {
+            font-size: 14px;
+        }
+
+        .rating {
+            margin-top: -60px;
+            font-size: 18px;
+        }
+    
+        #loved {
+            font-size: 14px;
+        }
+    }
+  }

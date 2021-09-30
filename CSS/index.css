@@ -1,5 +1,5 @@
 .main-background {
-    background-image: url(Images/4562472.jpg);
+    background-image: url(../Images/future.png);
     height:100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,3 +37,13 @@
     font-size: 24px;
     background-color: black;
 }
+
+@media screen and (max-width: 600px) {
+    #home-header {
+        font-size: 54px;
+    }
+
+    #home-subheader {
+        font-size: 16px;
+    }
+  }

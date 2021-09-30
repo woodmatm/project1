@@ -1,5 +1,5 @@
 .countdown {
-  background-image: url(Images/countdown.jpg);
+  background-image: url(../Images/countdown.jpg);
   height:120vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 h1 {
   font-size: 64px;
     color: #ecf0f1;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     text-align: center;
     background-color: transparent;
