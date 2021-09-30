@@ -144,10 +144,12 @@
         }
 
         #statement-title {
+            color: #ecf0f1;
             font-size: 18px;
         }
 
         #statement-para {
+            color: #ecf0f1;
             font-size: 14px;
         }
 
@@ -157,6 +159,7 @@
         }
     
         #loved {
+            color: #ecf0f1;
             font-size: 14px;
         }
     }
