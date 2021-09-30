@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 700px;
+    height: 600px;
     width: 300px;
     margin: 20px;
     background-color: gray;
@@ -32,7 +32,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 700px;
+    height: 600px;
     width: 300px;
     margin: 20px;
     background-color: gray;
@@ -51,7 +51,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 700px;
+    height: 600px;
     width: 300px;
     margin: 20px;
     background-color: gray;
@@ -87,8 +87,13 @@
     margin-left: 1em;
     }
 
+.parent h2 {
+    font-size: 36px;
+}
+
 .parent li {
     text-align: center;
+    font-size: 18px;
     margin: 1px 0 0 0;
     padding: 0;
     list-style-type: none;
@@ -96,7 +101,7 @@
     }
 
 .coach {
-    height: 120px;
+    height: 200px;
     padding: 10px;
 }
 
@@ -107,8 +112,44 @@
 
 h3 {
     text-align: center;
+    font-size: 36px;
     color: green;
     margin-top: -20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .economy {
+        height: 500px;
+        width: 200px;
+    }
+    
+    .preferred {
+        height: 500px;
+        width: 200px;
+    }
+
+    .premium {
+        height: 500px;
+        width: 200px;
+    }
+
+    .coach {
+        height: 100px;
+        width: 170px;
+        align-content: center;
+    }
+
+    .parent li {
+        font-size: 10px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .parent h2 {
+        font-size: 22px;
+    }
 }
 
 @media screen and (max-width: 750px) {
