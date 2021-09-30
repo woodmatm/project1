@@ -100,10 +100,6 @@
 }
 
 @media screen and (max-width: 700px) {
-    .about-background {
-        height: 80%;
-    }
-    
     #about-header {
         font-size: 36px;
     }
@@ -146,10 +142,6 @@
 }
 
 @media screen and (max-width: 500px) {
-
-    .about-background {
-        height: 70%;
-    }
     
     #about-header {
         font-size: 24px;
