@@ -42,3 +42,21 @@
     color: red;
     border-bottom: 1px solid red;
 }
+
+#support {
+    text-align: center;
+    font-size: 48px;
+    color: antiquewhite;
+}
+
+.games {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 220px;
+}
+
+.game-img {
+    height: 200px;
+    width: 300px;
+}
