@@ -41,16 +41,32 @@
     width: 200px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 650px) {
     #home-header {
-        font-size: 40px;
+        font-size: 56px;
     }
 
     #home-subheader {
-        font-size: 16px;
+        font-size: 24px;
     }
 
     #start {
-        font-size: 12px;
+        font-size: 18px;
+        width: 150px;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    #home-header {
+        font-size: 48px;
+    }
+
+    #home-subheader {
+        font-size: 20px;
+    }
+
+    #start {
+        font-size: 14px;
+        width: 100px;
     }
   }

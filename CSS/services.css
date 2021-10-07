@@ -140,7 +140,7 @@ h3 {
     }
 
     .parent li {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     h3 {
@@ -165,14 +165,17 @@ h3 {
     }
 
     .economy {
+        height: 400px;
         width: 150px;
     }
 
     .preferred {
+        height: 400px;
         width: 150px;
     }
 
     .premium {
+        height: 400px;
         width: 150px;
     }
 

@@ -58,8 +58,62 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 650px) {
+    a {
+        font-size: 10px;
+    }
+
+    .logo {
+        height: 35px;
+        width: 35px;
+    }
+
+    .cta {
+        position: relative;
+        bottom: -2px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    a {
+        font-size: 8px;
+    }
+
+    .logo {
+        height: 30px;
+        width: 30px;
+    }
+
+    .cta {
+        position: relative;
+        bottom: -3px;
+    }
+
     .nav-links li {
-      padding: 5px;
+        display: inline-block;
+        padding: 0px 5px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    a {
+        font-size: 6px;
+    }
+
+    .logo {
+        height: 20px;
+        width: 20px;
+    }
+
+    .cta {
+        position: relative;
+        bottom: -4px;
+    }
+
+    .nav-links li {
+        display: inline-block;
+        position: relative;
+        right: 20px;
+        padding: 0px 3px;
     }
 }
